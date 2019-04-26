@@ -1,13 +1,55 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Shark</title>
+    <title>Feed-A-Shark Game</title>
+    <link href="CSS/welcome.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bree+Serif|Dosis|Karla|Lobster|PT+Sans"
+      rel="stylesheet"
+    />
   </head>
-
   <body>
-    <canvas id='Shark' width="1200" height="800" ></canvas>
+    <div class="header">
+      <h1>Lets Game!!!!!</h1>
+    </div>
+    <!-- end header-->
+
+    <div class="mainmenu">
+      <a href="instruction.html">
+        <img src="img/instructionButton.png" />
+      </a>
+    </div>
+
+    <div class="mainmenu">
+      <a href="scores.html">
+        <img src="img/highScoreButton.png" />
+      </a>
+    </div>
+
+    <div class="mainmenu">
+      <a href="about.html">
+        <img src="img/aboutButton.png" />
+      </a>
+    </div>
+    <div class="mainmenu">
+      <a href="feedback.html">
+        <img src="img/feedBackButton.png" />
+      </a>
+    </div>
+    <div class="mainmenu">
+      <audio id="myAudio" src="sound.wav" preload="auto"></audio>
+      <a onClick="togglePlay()">
+        <img src="img/soundOnOffButton.png" />
+      </a>
+    </div>
+    <div class="play">
+      <a target="_blank" href="game.html">
+        <img src="img/playButton.png" width="200" height="200" />
+      </a>
+    </div>
 
     <script src="js/app.js"></script>
-
   </body>
 </html>
+
