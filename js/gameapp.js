@@ -7,13 +7,9 @@ var ctx = canvas.getContext('2d');
 console.log('Canvas Shark:', ctx);
 
 var x, y;
-
-// window.addEventListener('load', setAttributesForAnimation);
 window.addEventListener('click', setAttributesForAnimation);
 
 function setAttributesForAnimation() {
-//   img.src = "http://bestanimations.com/Animals/Fish/Sharks/animatedshark-8.gif"; //animatedshark.gif // shark.jpg //http://bestanimations.com/Animals/Fish/Sharks/animatedshark-8.gif
-//   img.src = "animatedshark.gif";
   img.src = "shark.jpg";
   img.addEventListener('load', setIntervalForAnimation);
 }
