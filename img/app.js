@@ -12,9 +12,9 @@ var x, y;
 window.addEventListener('click', setAttributesForAnimation);
 
 function setAttributesForAnimation() {
-//   img.src = "http://bestanimations.com/Animals/Fish/Sharks/animatedshark-8.gif"; //animatedshark.gif // shark.jpg //http://bestanimations.com/Animals/Fish/Sharks/animatedshark-8.gif
+  img.src = "http://bestanimations.com/Animals/Fish/Sharks/animatedshark-8.gif"; //animatedshark.gif // shark.jpg //http://bestanimations.com/Animals/Fish/Sharks/animatedshark-8.gif
 //   img.src = "animatedshark.gif";
-  img.src = "shark.jpg";
+//   img.src = "shark.jpg";
   img.addEventListener('load', setIntervalForAnimation);
 }
 
