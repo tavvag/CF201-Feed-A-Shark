@@ -7,17 +7,22 @@ font-family: 'Lobster', cursive;
 */
 
 body {
-  background-image: url("../img/backgroundWelcomePage_1.jpg");
+  background-image: url("../img/backgroundWelcomePage.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
 }
 
 h1 {
-  padding: 250px;
-  text-align: center;
-  font-size: 50px;
+  color: yellow;
+  text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px yellow;
+  font-size: 100px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
 }
 
 img {
@@ -30,11 +35,15 @@ img:hover {
   filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
+div.menu {
+  margin: auto;
+  text-align: center;
+}
+
 div.mainmenu {
-  position: static;
-  padding: 10px;
   float: left;
-  margin-left: 30px;
+  margin-left: 20px;
+  text-align: center;
 }
 
 div.mainmenu:hover {
@@ -48,9 +57,10 @@ div.mainmenu img {
 }
 
 div.play {
+  margin: auto;
   clear: both;
-  padding: 20px;
-  margin-left: 800px;
+  padding: 10em;
+  margin-left: 40em;
 }
 
 div.play {
@@ -90,9 +100,9 @@ textarea {
 
 input[type="submit"] {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  background-color: #4caf50;
+  /* background-color: #4caf50; */
 
-  color: white;
+  /* color: white; */
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -104,22 +114,19 @@ input[type="submit"]:hover {
 }
 
 .feedbackform {
+  font-size: 2em;
+  color: yellow;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px yellow;
   margin: 30px auto;
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px;
-  opacity: 0.5;
   width: 50%;
-}
-
-.feedbackform h2 {
-  text-align: center;
-  font-size: 50px;
-  margin-bottom: 5px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
-
-div.feedback {
   float: left;
+  margin-left: 400px;
+}
+
+div.feedbackback {
+  margin-left: 800px;
+  clear: both;
 }

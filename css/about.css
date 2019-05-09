@@ -1,0 +1,94 @@
+/* Google CSS Styles 
+font-family: 'PT Sans', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Lobster', cursive;
+*/
+
+body {
+    background-image: url("../img/backgroundWelcomePage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+
+h1 {
+    color: yellow;
+    text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px yellow;
+    font-size: 100px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+  }
+
+  div.backbutton {
+    padding: 40px;
+    clear: both;
+  }
+
+.backbutton a {
+    margin-left: 800px;
+    margin-right: auto;
+  }
+
+  div.gallery {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    border: 0.5px solid #111;
+    float: left;
+    width: 200px;
+    border-style: inset;
+    padding: 10px;
+    margin: 10px;
+}
+  
+div.gallery:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border-style: hidden;
+}
+
+div.desc {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: azure;
+  text-emphasis: bold;
+  text-decoration-style: wavy;
+  padding: 10px;
+  text-align: center;
+  border: #888;
+  background-color: #111;
+}
+
+b {
+  color: yellow;
+  text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px yellow;
+  font-size: 1em;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.text1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px yellow;
+  font-size: 2em;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+}
+
+div.sharkers {
+  margin-left: 200px;
+}
